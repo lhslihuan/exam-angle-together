@@ -3,15 +3,19 @@
 <link rel="stylesheet" href="reset.css">
 <style>
     body{
-        background: #EEF3FA;
-        font-family: tahoma,arial,Hiragino Sans GB,"Microsoft Yahei",\5b8b\4f53;
+        background: #ffffff;
     }
     .item{
         width: 666px;
         height: 371px;
         border: 19px solid #F5F5F5;
         background: #ffffff;
-        margin: 0 auto;
+        /* margin: 0 auto; */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -204px;
+        margin-left: -352px;
     }
     .item h3{
         font-size: 14px;
@@ -26,6 +30,7 @@
     }
     .project-events .content {
         line-height: 20px;
+        position: relative;
     }
     .content .time{
         display: inline-block;
@@ -48,11 +53,22 @@
         vertical-align: top;
         width: 472px;
         padding-bottom: 23px;
-        border-left: 1px solid #BBBBBB;
         line-height: 20px;
         padding-left: 28px;
     }
-
+    .content:before{
+        content: "";
+        border-left: 1px solid #BBBBBB;
+        height: 100%;
+        position: absolute;
+        left: 98px;
+    }
+    .content:first-child:before {
+        top: 6px;
+    }
+    .content:last-child:before {
+        bottom: 48px;
+    }
 </style>
 <div class="item">
     <h3>项目大事记</h3>
