@@ -1,0 +1,45 @@
+.auto-complete-container {
+    width: 600px;
+}
+
+.auto-complete-container .red {
+    color: red;
+}
+
+.auto-complete-container .title,
+.auto-complete-container .title a,
+.auto-complete-container .title a:hover
+{
+    background: gray;
+    cursor: default;
+    color: black;
+    font-weight: normal;
+    border: none;
+}
+
+.auto-complete-container img {
+    width: 70px;
+    vertical-align: top;
+}
+
+.auto-complete-container .right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.auto-complete-container h4 {
+    margin: 0;
+}
+
+.auto-complete-container p {
+    margin: 5px 0;
+}
+
+.auto-complete-container .creator {
+    margin-right: 10px;
+}
+
+.auto-complete-container .tip {
+    margin-left: -66px;
+    color: #A5A5A5;
+}
